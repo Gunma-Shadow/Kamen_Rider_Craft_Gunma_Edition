@@ -22,3 +22,6 @@ jobs:
         uses: gradle/actions/setup-gradle@v3
         with:
           arguments: build
+          
+      - name: Claude Code Action Official
+        uses: anthropics/claude-code-action@v1
